@@ -20,6 +20,9 @@ The objective of this project is to clean and prepare the Amazon Sales dataset b
 
 ## 🔍Data Cleaning Actions
 * Removing missing and blank values
+<img width="1857" height="687" alt="raw data" src="https://github.com/user-attachments/assets/59b43cf1-b294-44e9-b8c4-3417aea3cd1d" />
+
+
 * Standardice the column that have text data with trim function and proper function
 * Change data_added column from general to date datatype
 
