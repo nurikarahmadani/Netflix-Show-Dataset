@@ -33,4 +33,4 @@ The objective of this project is to clean and prepare the Amazon Sales dataset b
 
 ## Result
 The dataset was reduced from 8,807 rows to 5,700 cleaned and valid records after removing duplicates and null values, and standardizing text data.
-Result can be see here [https://github.com/nurikarahmadani/Netflix-Show-Dataset/blob/main/cleaned%20data.xlsx](https://github.com/nurikarahmadani/Netflix-Show-Dataset/blob/main/cleaned%20data.xlsx)
+Result can be see here [Dataset Cleaned](https://github.com/nurikarahmadani/Netflix-Show-Dataset/blob/main/cleaned%20data.xlsx)
