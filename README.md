@@ -27,13 +27,9 @@ The objective of this project is to clean and prepare the Amazon Sales dataset b
 **Tools :** Excel Function TRIM, PROPER, REMOVE DUPLICATES, POWER QUERY
 
 ## Data Cleaning Actions
-| Step | Column       | Issue Found       | Action Taken            | Example                         |                      |
-| ---- | ------------ | ----------------- | ----------------------- | ------------------------------- | -------------------- |
-| 1    | product_name | Inconsistent text | TRIM + PROPER           | `" usb Cable "` → `"Usb Cable"` |                      |
-| 2    | category     | Complex format    | Split using delimiter ` | `                               | Hierarchy normalized |
-| 3    | price        | Blank values      | Removed 217 rows        | Valid records only              |                      |
+* Removing missing and blank values
+* Standardice the column that have text data with trim function and proper function
+* Change data_added column from general to date datatype
 
-
-
-
-Total rows after cleaning : 5700
+## Result
+The dataset was reduced from 8,807 rows to 5,700 cleaned and valid records after removing duplicates and null values, and standardizing text data.
